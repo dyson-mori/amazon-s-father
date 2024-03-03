@@ -24,7 +24,9 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <video height={240 * 2} controls preload="none">
+        <video
+          // height={240 * 2}
+          controls preload="none">
           <source src="https://res.cloudinary.com/dfayz3rrm/video/upload/v1709434080/VENHA_FAZER_PARTE_DA_COMUNIDADE_LOJA_PRONTA_itlof9.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
