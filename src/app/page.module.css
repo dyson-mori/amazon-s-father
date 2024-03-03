@@ -83,7 +83,7 @@
   width: 100%;
 }
 
-.center a {
+.center button {
   position: absolute;
   color: #FFFFFF;
 
@@ -99,7 +99,7 @@
   cursor: pointer;
 }
 
-.center a:hover {
+.center button:hover {
   padding: 28px 170px 28px 170px;
   font-size: 21px;
 }
@@ -263,7 +263,7 @@
     width: 90%;
   }
 
-  .center a {
+  .center button {
     padding: 15px 50px 15px 50px;
   }
 

@@ -34,9 +34,7 @@ export default function Home() {
         </video>
 
         <div>
-          <a
-            // target="_blank"
-          >Garanta sua vaga</a>
+          <button>Garanta sua vaga</button>
         </div>
       </section>
 
