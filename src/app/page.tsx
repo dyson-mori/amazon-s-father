@@ -5,41 +5,32 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://paidaamazon.com.br/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="https://paidaamazon.com.br/wp-content/uploads/2023/11/PAI-DA-AMAZON-LOGO-BRANCO-2-1024x500.png"
-              alt="Vercel Logo"
-              // className={styles.vercelLogo}
-              width={1024 / 10}
-              height={500 / 10}
-              priority
-            />
-          </a>
-        </div>
+        <a
+          href="https://paidaamazon.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="https://paidaamazon.com.br/wp-content/uploads/2023/11/PAI-DA-AMAZON-LOGO-BRANCO-2-1024x500.png"
+            alt="Vercel Logo"
+            // className={styles.vercelLogo}
+            width={1024 / 5.2}
+            height={500 / 5.2}
+            priority
+          />
+        </a>
+        <h2>A oportunidade de uma vida:</h2>
+        <p>torne-se um vendedor na Amazon.</p>
       </div>
 
       <div className={styles.center}>
-        <Image
-          // className={styles.logo}
-          src="https://paidaamazon.com.br/wp-content/uploads/2023/11/PAI-DA-AMAZON-LOGO-BRANCO-2-1024x500.png"
-          alt="Next.js Logo"
-          width={1024 / 5}
-          height={500 / 5}
-          priority
-        />
+        <video height={240 * 2} controls preload="none">
+          <source src="https://res.cloudinary.com/dfayz3rrm/video/upload/v1709434080/VENHA_FAZER_PARTE_DA_COMUNIDADE_LOJA_PRONTA_itlof9.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
-      <div className={styles.grid}>
+      {/* <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -51,45 +42,10 @@ export default function Home() {
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      </div> */}
+      <footer className={styles.footer}>
+        <p>Copyright © 2024. Todos os direitos reservados.</p>
+      </footer>
     </main>
   );
 }
