@@ -1,0 +1,147 @@
+/* .presentation-container {
+  width: 100%;
+}
+
+.presentation-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.presentation-container h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.2em;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  margin-top: 20px;
+  text-align: center;
+
+  transition: .2s;
+}
+
+.presentation-container p {
+  color: var(--primary);
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.2em;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  text-align: center;
+
+  transition: .2s;
+}
+
+.presentation-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation-center div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  width: 100%;
+}
+
+.presentation-center button {
+  position: absolute;
+
+  color: #FFFFFF;
+
+  width: 350px;
+  height: 70px;
+
+  font-size: 19px;
+  font-weight: 700;
+
+  background-color: #F55D00;
+
+  border-radius: 50px;
+
+  box-shadow: 0px 0px 20px 0px #F55D00;
+
+  transition: .2s;
+
+  cursor: pointer;
+}
+
+.presentation-center button:hover {
+  width: 400px;
+  height: 80px;
+
+  font-size: 21px;
+} */
+
+/* Tablet */
+/* @media (max-width: 900px) {
+  .presentation-container img {
+    width: auto;
+    height: calc(100vh / 9.2);
+  }
+
+  .presentation-container h2 {
+    font-size: 30px;
+  }
+  .presentation-container p {
+    font-size: 30px;
+  }
+
+  .presentation-center button {
+    width: 300px;
+    height: 65px;
+
+    font-size: 17px;
+  }
+
+  .presentation-center button:hover {
+    width: 350px;
+    height: 70px;
+  
+    font-size: 19px;
+  }
+} */
+
+/* Mobile */
+/* @media (max-width: 700px) {
+  .presentation-container img {
+    width: auto;
+    height: calc(100vh / 16);
+  }
+
+  .presentation-container h2 {
+    font-size: 25px;
+  }
+  .presentation-container p {
+    font-size: 25px;
+  }
+
+  .presentation-center {
+    display: inherit;
+    padding: 1rem 0;
+  }
+
+  .presentation-center button {
+    padding: 15px 50px 15px 50px;
+  }
+
+  .presentation-center button {
+    width: 250px;
+    height: 60px;
+
+    font-size: 15px;
+  }
+
+  .presentation-center button:hover {
+    width: 300px;
+    height: 65px;
+  
+    font-size: 17px;
+  }
+} */
